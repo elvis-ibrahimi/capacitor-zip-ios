@@ -1,6 +1,6 @@
 {
   "name": "@elvis-ibrahimi/capacitor-zip-ios",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Zip plugin for iOS",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
