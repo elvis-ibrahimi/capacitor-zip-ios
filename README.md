@@ -1,17 +1,13 @@
-# Capacitor Zip
-
-[![npm](https://img.shields.io/npm/v/capacitor-zip.svg)](https://www.npmjs.com/package/capacitor-zip)
-[![npm](https://img.shields.io/npm/dt/capacitor-zip.svg?label=npm%20downloads)](https://www.npmjs.com/package/capacitor-zip)
-[![Build Status](https://travis-ci.org/triniwiz/capacitor-zip.svg?branch=master)](https://travis-ci.org/triniwiz/capacitor-zip)
+# Capacitor Zip (iOS only)
 
 ## Installation
 
-- `npm i capacitor-zip`
+- `npm i @elvis-ibrahimi/capacitor-zip-ios`
 
 ## Usage
 
 ```ts
-import { Zip } from 'capacitor-zip';
+import { Zip } from '@elvis-ibrahimi/capacitor-zip-ios';
 const zip = new Zip();
 
 await zip.zip({

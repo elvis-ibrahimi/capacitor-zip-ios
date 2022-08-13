@@ -1,0 +1,43 @@
+{
+  "name": "@elvis-ibrahimi/capacitor-zip-ios",
+  "version": "1.1.0",
+  "description": "Zip plugin for iOS",
+  "main": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "rm -rf ./dist",
+    "watch": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Osei Fortune",
+  "license": "MIT",
+  "dependencies": {
+    "@capacitor/core": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  },
+  "files": [
+    "dist/",
+    "ios/",
+    "ElvisIbrahimiCapacitorZipIos.podspec"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "capacitor": {
+    "ios": {
+      "src": "ios"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elvis-ibrahimi/capacitor-zip-ios"
+  },
+  "bugs": {
+    "url": "https://github.com/elvis-ibrahimi/capacitor-zip-ios/issues"
+  }
+}
